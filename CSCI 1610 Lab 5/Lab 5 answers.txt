@@ -1,0 +1,8 @@
+Alex Strohmeyer Lab 5
+
+1: When running the white cell can be moved and blue cells randomly appear.
+2: The Bloodstream is the background world, the white cell is the player, 
+	the bacteria just float along, and the lining is the boundaries.
+26: Objects appear on the border and the white cell is obscured.
+32: showText has 3 parameters: a string text, and int x and y
+

@@ -1,0 +1,4 @@
+Alex Strohmeyer
+
+7.1: the objects just float around.
+7.4: the method belongs to actor and returns all of objects intersecting the object that calls it.

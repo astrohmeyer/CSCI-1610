@@ -1,0 +1,6 @@
+Alex Strohmeyer
+
+6.8: Both keys play the same sound at once. The keys need variables associated with them.
+6.15: it places 12 keys on top of each other.
+6.16: change the position on each iteration.
+6.17: loop executes 12 times going from 0 to 11
