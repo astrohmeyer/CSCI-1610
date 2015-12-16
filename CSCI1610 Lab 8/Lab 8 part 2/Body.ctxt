@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Body()
+comment0.text=\r\n\ Construct\ a\ Body\ with\ default\ size,\ mass,\ velocity\ and\ color.\r\n
+comment1.params=size\ mass\ velocity\ color
+comment1.target=Body(int,\ double,\ Vector,\ java.awt.Color)
+comment1.text=\r\n\ Construct\ a\ Body\ with\ a\ specified\ size,\ mass,\ velocity\ and\ color.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act.\ That\ is\:\ apply\ \ the\ gravitation\ forces\ from\r\n\ all\ other\ bodies\ around,\ and\ then\ move.\r\n
+comment3.params=
+comment3.target=void\ bounceAtEdge()
+comment3.text=\r\n\ Check\ whether\ we\ have\ hit\ the\ edge\ of\ the\ universe.\ If\ so,\ bounce\ off\ it.\r\n
+comment4.params=
+comment4.target=void\ applyForces()
+comment4.text=\r\n\ Apply\ the\ forces\ of\ gravity\ from\ all\ other\ celestial\ bodies\ in\ this\ universe.\r\n
+comment5.params=other
+comment5.target=void\ applyGravity(Body)
+comment5.text=\r\n\ Apply\ the\ force\ of\ gravity\ of\ a\ given\ body\ to\ this\ one.\r\n\ (Force\ is\ applied\ for\ one\ time\ unit;\ dt\=\=1.)\r\n
+comment6.params=
+comment6.target=double\ getMass()
+comment6.text=\r\n\ Return\ the\ mass\ of\ this\ body.\r\n
+comment7.params=
+comment7.target=void\ changeColor()
+comment7.text=\r\n\ Change\ color\ at\ edge\r\n
+comment8.params=
+comment8.target=void\ checkCollision()
+comment8.text=\r\n\ changes\ color\ on\ collision\r\n
+numComments=9

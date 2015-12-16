@@ -1,0 +1,30 @@
+Alex Strohmeyer
+8.1: Nothing happens when run is clicked.
+8.2: The methods for space load a preset world.
+8.3: void act() and double getMass()
+8.4: sun: 240
+     planet: 4.2
+     moon: 0.8
+8.6: accelerate(), addToVelocity(), getExactX(), getExactY(), getSpeed(), invertHorizontalVelocity(),
+     invertVerticalVelocity(), move(), setLocation().
+8.7: setLocation() has two methods, one takes int the other takes double. The method that
+     takes doubles can place objects with more precision.
+8.9: All of the methods can be called but addToVelocity requires a vector.
+8.11: When "this" is removed the local variable mass is set equal to itself and the 
+      object's variable of mass is never set resulting in a mass of 0.0, with this.mass 
+      it sets the object's variable of mass equal to the value for mass passed in the constructor.
+      The code compiles but would not work how its intended.
+8.12: The default direction is right and speed is 1.0.
+8.13: The bodies all move identically.
+8.14: They move down. The direction and speed are set in their constructor when made in the space class.
+8.17: Color has 7 constructors.
+8.18: The range is 0 to 255.
+8.19: Color is imported at the top just under greenfoot.*
+8.20: cannot find symbol - class Color.
+8.27: sqrt has 1 parameter. It takes and returns a double.
+8.28: max(int a, int b)
+8.30: The objects orbit each other based on distance and size difference as expected. 
+      However in some situations such as the sunPlanetMoon() setup the moon eventually
+      hits the planet and causes very erratic movement.
+
+
